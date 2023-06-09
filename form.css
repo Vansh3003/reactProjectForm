@@ -1,0 +1,41 @@
+body{
+    background-color: #423525;;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 84px;
+}
+
+.form {
+  background-color: black;
+}
+
+legend {
+  color: white;
+}
+
+label {
+  color: antiquewhite;
+}
+
+.email {
+  margin-left: 39px;
+}
+
+.password {
+  margin-left: 12px;
+}
+
+input[type="submit"] {
+  background: #2bdbcb;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 2px solid #101e6c;
+  font-weight: bold;
+}
+input {
+  padding: 5px;
+}
